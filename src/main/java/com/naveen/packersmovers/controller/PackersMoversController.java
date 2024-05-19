@@ -28,6 +28,9 @@ public class PackersMoversController {
         
         
         @GetMapping("/ping")
-        public String ping() {  return "Hi this is Sandeep";}             
+        public String ping() {  return "Hi this is Sandeep";}     
+
+        @GetMapping("/Version")
+        public String ping() {  return "Hi this is cloudNation website Application";} 
 
     }
